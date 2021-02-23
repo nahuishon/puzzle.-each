@@ -113,3 +113,37 @@ button:hover:active:before{
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
+
+/* target only screens up to 992px */
+@media only screen and (max-width: 992px){
+ 
+
+  .topnav a{
+    margin-bottom: 20px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 56px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+
+button{
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border: none;
+  margin-top: 690px;
+  margin-bottom: 20px;
+  margin-left: 340px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background: rgb(255, 254, 254);
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+
+}
