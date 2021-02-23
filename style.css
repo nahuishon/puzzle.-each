@@ -3,6 +3,30 @@ body{
     height: 100vh;
     background: radial-gradient(#8854d0,#7743C0,#061030);
 }
+
+.topnav{
+    background-color: black;
+}
+
+.topnav a{
+  margin-bottom: 20px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1px 186px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #050605;
+  color: white;
+}
+
 #can{
     position: absolute;
     left:50%;
