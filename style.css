@@ -1,7 +1,8 @@
 *{padding: 0;margin: 0;box-sizing: border-box;}
 body{
     height: 100vh;
-    background: radial-gradient(#545353,#050606,#000000);
+    background-color: #000000;
+    
 }
 
 .topnav{
@@ -32,6 +33,16 @@ body{
   text-decoration: center;
   font-size: 20px;
 }
+main{
+    background-color: black;
+    border-style:solid;
+    border-color: rgb(78, 129, 218);
+    border-width: 5px 5px 5px 5px;
+    margin: 20px;;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    }
 
 #can{
     position: absolute;
@@ -61,8 +72,9 @@ button{
   height: 150px;
   width: 150px;
   border: none;
-  margin-top: 650px;
-  margin-left: 1000px;
+  margin-top: 600px;
+  margin-bottom: 40px;
+  margin-left: 950px;
   outline: none;
   color: rgb(0, 0, 0);
   background: rgb(255, 254, 254);
