@@ -52,6 +52,7 @@ main{
     background-color: #121212;
     border:0px solid #040b24; 
 }
+
 #score_board{
     position: absolute;
     left:50%;
@@ -67,52 +68,25 @@ main{
     font-family: monospace;
 }
 
+
 .next{
-  position: relative;
-  height: 100px;
-  width: 100px;
-  border: none;
-  margin-top: 690px;
+  border: 10px solid #ffffff;
+  color: #ffffff;
+  margin-left: 1040px;
+  margin-top: 600px;;
+  text-align: center;
+  font-size: 20px;
+  transition:  all 0.4s;
+  background-color: rgb(0, 0, 0);
+  width: 170px;
+  padding: 50px;
   margin-bottom: 20px;
-  margin-left: 940px;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 254, 254);
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 15px;
-  font-family: 'Raleway', sans-serif;
+  border: 2px solid rgb(253, 253, 255);
+  text-decoration: none;
 }
 
-.botton:before{
-  position: right;
-  content: '';
-  top: -2px;
-  left: -2px;
-  height: calc(100% + 4px);
-  width: calc(100% + 4px);
-  border-radius: 5px;
-  z-index: -1;
-  opacity: 0;
-  filter: blur(5px);
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-  background-size: 400%;
-  transition: opacity .3s ease-in-out;
-  animation: animate 20s linear infinite;
-}
-.bottn:hover:before{
-  opacity: 1;
-}
-.botton:hover:active{
-  background: none;
-}
-.bottn:hover:active:before{
-  filter: blur(2px);
-}
-@keyframes animate {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+.next:hover {
+  margin-top: -0.2rem;
 }
 
 /* target only screens up to 992px */
@@ -130,21 +104,21 @@ main{
   }
 
 
-  .next{
-  position: relative;
-  height: 100px;
-  width: 100px;
-  border: none;
-  margin-top: 690px;
-  margin-bottom: 20px;
-  margin-left: 340px;
-  outline: none;
-  color: rgb(0, 0, 0);
-  background: rgb(255, 254, 254);
-  cursor: pointer;
-  border-radius: 50%;
-  font-size: 15px;
-  font-family: 'Raleway', sans-serif;
-}
-
+  .next a{
+    border: 10px solid #ffffff;
+    color: #ffffff;
+    margin-left: 480px;
+    font-size: 20px;
+    transition:  all 0.4s;
+    background-color: rgb(0, 0, 0);
+    width: 70px;
+    padding: 70px;
+    margin-bottom: 100px;
+    border: 2px solid rgb(253, 253, 255);
+    text-decoration: none;
+  }
+  
+  .next:hover {
+    margin-top: -0.2rem;
+  }
 }
