@@ -116,9 +116,6 @@ main{
   color: #ffffff;
 }
 
-.next:hover {
-  margin-top: -0.2rem;
-}
 
 /* target only screens up to 992px */
 @media only screen and (max-width: 992px){
