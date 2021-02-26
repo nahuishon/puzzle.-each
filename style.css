@@ -67,23 +67,24 @@ main{
     font-family: monospace;
 }
 
-button{
+.next{
   position: relative;
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   border: none;
-  margin-top: 600px;
-  margin-bottom: 40px;
-  margin-left: 990px;
+  margin-top: 690px;
+  margin-bottom: 20px;
+  margin-left: 940px;
   outline: none;
   color: rgb(0, 0, 0);
   background: rgb(255, 254, 254);
   cursor: pointer;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 15px;
   font-family: 'Raleway', sans-serif;
 }
-button:before{
+
+.botton:before{
   position: right;
   content: '';
   top: -2px;
@@ -99,13 +100,13 @@ button:before{
   transition: opacity .3s ease-in-out;
   animation: animate 20s linear infinite;
 }
-button:hover:before{
+.bottn:hover:before{
   opacity: 1;
 }
-button:hover:active{
+.botton:hover:active{
   background: none;
 }
-button:hover:active:before{
+.bottn:hover:active:before{
   filter: blur(2px);
 }
 @keyframes animate {
@@ -129,7 +130,7 @@ button:hover:active:before{
   }
 
 
-button{
+  .next{
   position: relative;
   height: 100px;
   width: 100px;
