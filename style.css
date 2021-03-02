@@ -178,8 +178,4 @@ main{
     border: 2px solid rgb(253, 253, 255);
     text-decoration: none;
   }
-  
-  .next:hover {
-    margin-top: -0.2rem;
-  }
 }
