@@ -198,34 +198,25 @@ main{
     /* Extra small devices (phones, 480px and down) */
 @media only screen and (max-width: 480px) {
   
-  .topnav a {
-    float: left;
-    display: block;
-    width: 20.33%;  /* three links of equal widths */
-    text-align: center; /* If you want the text to be left-aligned on small screens */
-  }
-  #can{
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    background-color: #000000;
-    border:5px solid #ffffff; 
-}
-  #score_board{
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-    width:254px;
-    height: 180px;
-    text-align: center;
-    padding: 2px;
-    background-color: transparent;
-    color: #ccc;
-    font-size: 2.0em;
-    font-family: monospace;
- }
+  .topnav{
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+      }
+  
+    .topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     font-family:'Spinnaker', sans-serif;
+     text-decoration: none;
+     margin-left: 30px;
+     font-size: 20px;
+     width: 22.33%; 
+     text-align: center; /* If you want the text to be centered */
+    }
+
+
 
 }
 
