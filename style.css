@@ -233,13 +233,13 @@ main{
      .dropdown-content a {
       float: none;
       color: rgb(255, 255, 255);
-      padding: 40px 40px;
+      padding: 20px 20px;
       font-size: 18px;
       font-family:'Spinnaker', sans-serif;
       text-decoration: none;
       display: block;
       text-align: center;
-      margin-left: 10px;
+      margin-left: 0px;
        }
          
      .dropdown-content a:hover {
@@ -248,23 +248,38 @@ main{
        color: black;
         }
          
- /* Show the dropdown menu when the user moves the mouse over the dropdown button */
       .dropdown:hover .dropdown-content {
-              display: block;
-         }
-         
-     .next a{
-     border: 10px solid #ffffff;
-     color: #ffffff;
-     margin-left: 480px;
-     font-size: 20px;
-     transition:  all 0.4s;
-     background-color: rgb(0, 0, 0);
-     width: 60px;
-     padding: 30px;
-     margin-bottom: 100px;
-     border: 2px solid rgb(253, 253, 255);
-     text-decoration: none;
+       display: block;
+        }
+
+      main{
+       background-color: black;
+       border-style:solid;
+       margin: 50px;;
+       margin-top: 10px;
+       margin-bottom: 0px;
+       text-decoration: none;
+          }
+
+      .next{
+       text-align: right;
+       margin-bottom: 70px;
+       margin-top: 550px;
+       margin-right: 100px;
+      }
+  
+      .next a{
+       border: 10px solid #ffffff;
+       color: #ffffff;
+       margin-left: 20px;
+       font-size: 20px;
+       transition:  all 0.4s;
+       background-color: rgb(0, 0, 0);
+       width: 20px;
+       padding: 10px;
+       margin-bottom: 10px;
+       border: 2px solid rgb(253, 253, 255);
+       text-decoration: none;
        }
     }
 

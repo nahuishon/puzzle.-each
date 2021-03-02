@@ -52,12 +52,7 @@ var Game=function(){
             _.indexes[nodeidx]=_.missingNode;
             _.missingNodeIndex=nodeidx;
         }
-        _.completed=_.checkPuzzleCompleted();
-        if(_.completed){
-            setTimeout(function(){
-                alert("< GAME COMPLETE >")
-            },1000);
-        }
+       
     }
 
     this.checkPuzzleCompleted=function(){
