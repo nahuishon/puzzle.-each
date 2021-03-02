@@ -44,13 +44,13 @@ body{
 .dropdown-content a {
  float: none;
  color: rgb(255, 255, 255);
- padding: 60px 60px;
+ padding: 50px 60px;
  font-size: 18px;
  font-family:'Spinnaker', sans-serif;
  text-decoration: none;
  display: block;
  text-align: center;
- margin-left: 0px;
+ margin-left: 10px;
 }
 
 /* Add a grey background to dropdown links on hover */
@@ -99,8 +99,6 @@ main{
     font-family: monospace;
 }
 
-
-
 .next{
   text-align: right;
   margin-bottom: 70px;
@@ -123,32 +121,76 @@ main{
 }
 
 
-/* target only screens up to 992px */
-@media only screen and (max-width: 992px){
+/* target only screens up to 1202px */
+@media only screen and (max-width: 1202px){
  
+  .topnav{
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+      }
+  
+    .topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     font-family:'Spinnaker', sans-serif;
+     text-decoration: none;
+     margin-left: 70px;
+     font-size: 20px;
+     width: 30.33%; 
+     text-align: center; /* If you want the text to be centered */
+    }
 
-  .topnav a{
-    margin-bottom: 20px;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 4px 56px;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 10px;
-  }
-
-
-  .next a{
-    border: 10px solid #ffffff;
-    color: #ffffff;
-    margin-left: 480px;
-    font-size: 20px;
-    transition:  all 0.4s;
-    background-color: rgb(0, 0, 0);
-    width: 70px;
-    padding: 70px;
-    margin-bottom: 200px;
-    border: 2px solid rgb(253, 253, 255);
-    text-decoration: none;
-  }
-}
+    .dropdown {
+      float: left;
+      overflow: hidden;
+     }
+         
+    .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #000000;
+       min-width: 100px;
+       box-sizing: 30px 40px;
+       box-shadow: 0px 3px 5px 5px rgba(255, 255, 255, 0.2);
+       z-index: 1;
+       }
+      
+     .dropdown-content a {
+      float: none;
+      color: rgb(255, 255, 255);
+      padding: 40px 40px;
+      font-size: 18px;
+      font-family:'Spinnaker', sans-serif;
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      margin-left: 30px;
+       }
+         
+     .dropdown-content a:hover {
+       background-color: rgb(255, 255, 255); 
+       box-sizing: content-box;
+       color: black;
+        }
+         
+ /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+      .dropdown:hover .dropdown-content {
+              display: block;
+         }
+         
+   .next a{
+     border: 10px solid #ffffff;
+     color: #ffffff;
+     margin-left: 480px;
+     font-size: 20px;
+     transition:  all 0.4s;
+     background-color: rgb(0, 0, 0);
+     width: 60px;
+     padding: 30px;
+     margin-bottom: 100px;
+     border: 2px solid rgb(253, 253, 255);
+     text-decoration: none;
+       }
+    }
