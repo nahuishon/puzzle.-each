@@ -9,6 +9,7 @@ body{
  .topnav{
   background-color: black;
   overflow: hidden;
+  width: 100%;
     }
 
   .topnav a {
@@ -18,13 +19,12 @@ body{
    font-family:'Spinnaker', sans-serif;
    padding: 30px;
    text-decoration: none;
-   margin-left: 200px;
+   margin-left: 150px;
    font-size: 29px;
-   width: 18.33%; 
+   width: 23.33%; 
    text-align: center; /* If you want the text to be centered */
         }
 
-/* Dropdown container - needed to position the dropdown content */
   .dropdown {
    float: left;
    overflow: hidden;
@@ -43,18 +43,18 @@ body{
 .dropdown-content a {
  float: none;
  color: rgb(255, 255, 255);
- padding: 50px 65px;
+ padding: 60px 65px;
  font-size: 18px;
  font-family:'Spinnaker', sans-serif;
  text-decoration: none;
  display: block;
  text-align: center;
- margin-left: 50px;
+ margin-left: 20px;
 }
 
 /* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
- background-color: rgb(228, 242, 106);
+ background-color: rgb(228, 242, 106); 
  color: black;
 }
 
@@ -66,10 +66,10 @@ body{
 main{
     background-color: black;
     border-style:solid;
-    border-color: rgb(78, 129, 218);
+    border-color: rgb(176, 199, 238);
     border-width: 5px 5px 5px 5px;
-    margin: 20px;;
-    margin-top: 20px;
+    margin: 50px;;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-decoration: none;
     }
@@ -79,7 +79,7 @@ main{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    background-color: #121212;
+    background-color: #000000;
     border:0px solid #040b24; 
 }
 #score_board{
@@ -128,19 +128,19 @@ main{
   100% { background-position: 0 0; }
 }
 
-.next{
+.next {
   border: 10px solid #ffffff;
   color: #ffffff;
-  margin-top: 650px;
+  text-decoration: none;
+  margin-top: 150px;
   margin-left: 940px;
   font-size: 20px;
   transition:  all 0.4s;
   background-color: rgb(0, 0, 0);
   width: 170px;
   padding: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 480px;
   border: 2px solid rgb(253, 253, 255);
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -169,7 +169,7 @@ main{
     background-color: rgb(0, 0, 0);
     width: 70px;
     padding: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     border: 2px solid rgb(253, 253, 255);
     text-decoration: none;
   }
