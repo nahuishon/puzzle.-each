@@ -16,12 +16,11 @@ body{
    display: block;
    color: #f2f2f2;
    font-family:'Spinnaker', sans-serif;
-   padding: 10px;
-   margin-left: 0px;
+   padding: 30px;
    text-decoration: none;
-   margin-top: 10PX;
+   margin-left: 200px;
    font-size: 29px;
-   width: 33.33%; 
+   width: 18.33%; 
    text-align: center; /* If you want the text to be centered */
         }
 
@@ -97,8 +96,6 @@ main{
     font-size: 2.0em;
     font-family: monospace;
 }
-
-
 
 .botton:before{
   position: right;
